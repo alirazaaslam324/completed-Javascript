@@ -1,0 +1,28 @@
+.bar
+{
+	background-color: #F2F2F2;
+	border-radius: 0px 0px 30px 30px;
+	box-shadow: 0px 5px 5px 1px #B3B6B7;
+}
+
+.nav-link
+{
+	font-weight: bold;
+}
+.nav-link:hover
+{
+	color: #75CD7D;
+}
+.card
+{
+	text-shadow: 5px 5px 5px grey;
+	margin-top: 40px;
+	box-shadow: 0 5px 5px 1px #F2F2F2;
+}
+.card:hover
+{
+	transition: 0.6s;
+	transform: scale(1.02);
+	box-shadow: 0 5px 5px 1px #B3B6B7;
+
+}

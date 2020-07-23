@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 10</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card text-center mt-5">
+                    <div class="card-header">
+                        <h4>Chapter 38-42</h4>
+                    </div>                   
+                    <div class="card-footer">
+                        <button id="task-1" class="btn btn-primary m-1">Task-1</button>
+                        <button id="task-2" class="btn btn-primary m-1">Task-2</button>
+                        <button id="task-3" class="btn btn-primary m-1">Task-3</button>
+                        <button id="task-4" class="btn btn-primary m-1">Task-4</button>
+                        <button id="task-5" class="btn btn-primary m-1">Task-5</button>
+                        <button id="task-6" class="btn btn-primary m-1">Task-6</button>
+                        <button id="task-7" class="btn btn-primary m-1">Task-7</button>
+                        <button id="task-8" class="btn btn-primary m-1">Task-8</button>
+                        <button id="task-9" class="btn btn-primary m-1">Task-9</button>
+                        <button id="task-10" class="btn btn-primary m-1">Task-10</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="card text-center mt-5">
+                    <div class="card-header">
+                        <h4>Chapter 43-48</h4>
+                    </div>
+                    <div class="card-body">
+                        <img class="task-11" src="image/1.jpg" alt="">
+                        <img class="task-11" src="image/2.jpg" alt="">
+                        <img class="task-11" src="image/3.jpg" alt="">
+                        <img class="task-11" src="image/1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="card mt-5">
+                    <div class="card-header">
+                        <h4>Chapter 43-48</h4>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-hover">
+                            <thead>
+                              <tr>
+                                <th scope="col">Sr.No</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Father Name</th>
+                                <th scope="col">Options</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td><button class="btn btn-danger"><i class="fa fa-trash"></i></button></td>
+                              </tr>                              
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card text-center mt-5 mb-4">
+                    <div class="card-header">
+                        <h4>Chapter 38-42</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="image/2.jpg" alt="" width="150px" onmouseover="rollover(this)" 
+                        onmouseout="mouseaway(this)">
+                    </div>                    
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card text-center mt-5 mb-4">
+                    <div class="card-header">
+                        <h4>Chapter 43-48</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 id="counter">0</h5>
+                    </div>
+                    <div class="card-footer">
+                        <button id="plus" class="btn btn-primary">Increase counter</button>
+                        <button id="minus" class="btn btn-primary">decrease counter</button>
+                    </div>   
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="card text-center mt-5 mb-4">
+                    <div class="card-header">
+                        <h4>Chapter 49-52</h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="" class="form-row">
+                            <div class="form-group col-md-6">
+                                <input id="name" type="text" class="form-control m-2" placeholder="Enter the Name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input id="city" type="text" class="form-control m-2" placeholder="Enter your City" required>                                
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input id="email" type="email" class="form-control m-2" placeholder="Enter your email" required>                                
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input id="from" type="text" class="form-control m-2" placeholder="Enter your from" required>                                
+                            </div>
+                            <input id="add" type="submit" class="btn btn-primary m-2">                            
+                        </form>                       
+                        
+                    </div>
+                    <div class="card-footer">
+                        
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
